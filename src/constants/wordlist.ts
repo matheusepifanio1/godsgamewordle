@@ -1,4 +1,6 @@
 export const WORDS = [
+  'lore',
+  'bard',
   'weapon',
   'shiva',
   'zeus',
