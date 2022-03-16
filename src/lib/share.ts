@@ -22,7 +22,7 @@ export const shareStatus = (
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
     generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode)) +
-    `\n\njogue agora em godsgamewordle.herokuapp.com/`
+    `\n\njogue agora em https://godsgamewordle.herokuapp.com/`
 
   const shareData = { text: textToShare }
 
